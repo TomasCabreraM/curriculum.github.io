@@ -1,0 +1,37 @@
+:root{
+    --color-primario: #1E3A8A;  
+    --color-secundario: #446488;
+    --color-fondo: #101227;
+    --color-fondo-menu: #1E293B;
+    --color-texto: #1e1e1e; 
+    --color-texto-brillante: #F9FAFB; 
+    --color-borde: #CBD5E1; 
+    --color-hover: #ca8010;
+    --color-hover-button: #5e2a5e;
+    --color-fondo-button: #6b696c;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-fondo);
+}
+section{
+    color: var(--color-texto-brillante);
+    text-align: center;
+    padding: 50px;
+}
+table{
+    border-spacing: 40px;
+    border-color: var(--color-texto-brillante);
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black; 
+    padding: 15px;
+}
+img{
+    max-width: 200px;
+}
